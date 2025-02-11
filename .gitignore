@@ -1,0 +1,4 @@
+.venv
+dir/input/archive/Images
+dir/input/archive/captions.txt
+dir/working/features.pkl
