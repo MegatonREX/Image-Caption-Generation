@@ -2,3 +2,7 @@
 dir/input/archive/Images
 dir/input/archive/captions.txt
 dir/working/features.pkl
+dir/working/best_model.keras
+dir/working/model_epoch_01.keras
+model.png
+README.md 
