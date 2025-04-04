@@ -1,10 +1,12 @@
+import os
 import streamlit as st
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from keras.models import load_model
+from tensorflow.keras.models import load_model
+
 import pickle
 from PIL import Image
 
