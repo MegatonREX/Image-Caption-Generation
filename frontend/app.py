@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 import pickle
 from PIL import Image
 
-model = tf.keras.models.load_model("best_model.keras")
+model = tf.keras.models.load_model("best_model.keras", safe_mode=False)
 with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
